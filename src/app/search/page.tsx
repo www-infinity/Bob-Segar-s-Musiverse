@@ -127,6 +127,7 @@ export default function SearchPage() {
       archiveId: result.id,
       streamUrl: `https://archive.org/download/${result.id}`,
       imageUrl: result.thumbnailUrl ?? "",
+      detailsUrl: `https://archive.org/details/${result.id}`,
       description: result.description,
       source: "archive",
     });

@@ -18,6 +18,7 @@ const PRELOADED_IMAGES: ArchiveImage[] = [
     archiveId: "bob-seger-ebbets-field-denver-co-1974-kbpi",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
     thumbnailUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     year: 1974,
     source: "Internet Archive",
   },

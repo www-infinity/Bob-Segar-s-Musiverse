@@ -11,6 +11,7 @@ export interface Track {
   archiveId: string; // Internet Archive identifier
   streamUrl: string;
   imageUrl: string;
+  detailsUrl: string; // Direct link to archive.org details page
   description: string;
   source: "archive" | "user";
   userAdded?: boolean;
@@ -28,6 +29,7 @@ export interface Concert {
   archiveId: string;
   streamUrl: string;
   imageUrl: string;
+  detailsUrl: string; // Direct link to archive.org details page
   description: string;
   setlist: string[];
   audioFormats: string[];
@@ -42,6 +44,7 @@ export interface ArchiveVideo {
   archiveId: string;
   embedUrl: string;
   thumbnailUrl: string;
+  detailsUrl: string; // Direct link to archive.org details page
   year: number;
   duration: number;
   format: string;
@@ -54,6 +57,7 @@ export interface ArchiveImage {
   archiveId: string;
   imageUrl: string;
   thumbnailUrl: string;
+  detailsUrl: string; // Direct link to archive.org details page
   year: number;
   source: string;
 }
