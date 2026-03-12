@@ -14,6 +14,11 @@ import { triggerEarnEvent } from "@/components/ui/GameHUD";
 
 type JukeboxTab = "bob-seger" | "classic-rock" | "queue" | "equalizer";
 
+function formatEQValue(value: number): string {
+  if (value === 50) return "0";
+  return value > 50 ? `+${value - 50}` : `${value - 50}`;
+}
+
 export default function JukeboxClient() {
   const [activeTab, setActiveTab] = useState<JukeboxTab>("bob-seger");
   const [showEQBands, setShowEQBands] = useState(false);
@@ -240,7 +245,7 @@ export default function JukeboxClient() {
                                 : "text-zinc-500"
                             }`}
                           >
-                            {value > 50 ? `+${value - 50}` : value < 50 ? `${value - 50}` : "0"}
+                            {formatEQValue(value)}
                           </span>
                           {/* Frequency label */}
                           <span className="text-zinc-600 text-xs text-center leading-tight">

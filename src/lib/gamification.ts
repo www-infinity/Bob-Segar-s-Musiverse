@@ -97,13 +97,23 @@ export function applyEarnEvent(
   const leveledUp = newLevel > progress.level;
   const newStage = getStageForLevel(newLevel);
 
-  // Stars from trending boosts (every 10 listens earns a star)
+  // Stars: earned from every 10 songs played, plus any trending boosts
+  // trendingBoosts are separate bonus stars added externally (e.g. sharing)
   const newSongsPlayed =
     eventType === "listen"
       ? progress.songsPlayed + 1
       : progress.songsPlayed;
-  const newStars =
-    Math.floor(newSongsPlayed / 10) + progress.trendingBoosts;
+  // Recalculate total stars: base from songs played + accumulated boost stars
+  const baseStarsFromSongs = Math.floor(newSongsPlayed / 10);
+  const previousBaseStars = Math.floor(progress.songsPlayed / 10);
+  const earnedBoostStars = progress.trendingBoosts;
+  // Stars only ever go up — preserve any previously earned boost stars
+  const newStars = Math.max(
+    progress.stars,
+    baseStarsFromSongs + earnedBoostStars
+  );
+  // Grant a new boost star if we hit a song milestone
+  const gainedSongStar = baseStarsFromSongs > previousBaseStars;
 
   // Unlock games at point milestones
   const newUnlockedGames = [...progress.unlockedGames];
@@ -138,6 +148,10 @@ export function applyEarnEvent(
         ? Math.max(0, progress.mushrooms - 1)
         : progress.mushrooms,
     unlockedGames: newUnlockedGames,
+    // Track gained song star for the return value
+    trendingBoosts: gainedSongStar
+      ? progress.trendingBoosts + 1
+      : progress.trendingBoosts,
   };
 
   const event: EarnEvent = {
