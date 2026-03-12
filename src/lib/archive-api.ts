@@ -221,6 +221,9 @@ export function parseUserSubmittedUrl(url: string): Track {
     imageUrl: archiveId
       ? `https://archive.org/services/img/${archiveId}`
       : "/images/default-album.png",
+    detailsUrl: archiveId
+      ? `https://archive.org/details/${archiveId}`
+      : url,
     description: `User-submitted track from: ${url}`,
     source: "user",
     userAdded: true,
@@ -257,6 +260,7 @@ function archiveDocToTrack(doc: ArchiveDoc): Track | null {
     archiveId: identifier,
     streamUrl: `https://archive.org/download/${identifier}`,
     imageUrl: buildThumbnailUrl(identifier),
+    detailsUrl: buildDetailsUrl(identifier),
     description: coerceString(doc.description),
     source: "archive",
   };
@@ -282,6 +286,7 @@ function archiveDocToConcert(doc: ArchiveDoc): Concert | null {
     archiveId: identifier,
     streamUrl: buildDetailsUrl(identifier),
     imageUrl: buildThumbnailUrl(identifier),
+    detailsUrl: buildDetailsUrl(identifier),
     description: coerceString(doc.description) || title,
     setlist: [],
     audioFormats: ["MP3"],
@@ -306,6 +311,7 @@ function archiveDocToVideo(doc: ArchiveDoc): ArchiveVideo | null {
     archiveId: identifier,
     embedUrl: `https://archive.org/embed/${identifier}`,
     thumbnailUrl: buildThumbnailUrl(identifier),
+    detailsUrl: buildDetailsUrl(identifier),
     year,
     duration: 0,
     format: "video",
@@ -327,6 +333,7 @@ function archiveDocToImage(doc: ArchiveDoc): ArchiveImage | null {
     archiveId: identifier,
     imageUrl: buildThumbnailUrl(identifier),
     thumbnailUrl: buildThumbnailUrl(identifier),
+    detailsUrl: buildDetailsUrl(identifier),
     year,
     source: "Internet Archive",
   };
@@ -371,6 +378,7 @@ export function archiveFilesToTracks(
       archiveId: identifier,
       streamUrl: buildStreamUrl(identifier, f.name),
       imageUrl,
+      detailsUrl: buildDetailsUrl(identifier),
       description: `Track ${f.track ?? i + 1} from ${identifier}`,
       source: "archive" as const,
     }));

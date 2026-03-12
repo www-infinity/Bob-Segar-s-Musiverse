@@ -58,6 +58,7 @@ export default function VideosPage() {
           archiveId: id,
           embedUrl: `https://archive.org/embed/${id}`,
           thumbnailUrl: `https://archive.org/services/img/${id}`,
+          detailsUrl: `https://archive.org/details/${id}`,
           year: 1974,
           duration: 3600,
           format: "audio/video",

@@ -57,6 +57,7 @@ export default function ConcertsPage() {
       archiveId: concert.archiveId,
       streamUrl: `https://archive.org/download/${concert.archiveId}`,
       imageUrl: concert.imageUrl,
+      detailsUrl: `https://archive.org/details/${concert.archiveId}`,
       description: concert.description,
       source: "archive" as const,
     };

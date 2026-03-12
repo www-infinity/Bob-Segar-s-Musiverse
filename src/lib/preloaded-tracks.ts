@@ -14,6 +14,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t04.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Classic 1976 rock anthem about youthful nostalgia.",
     source: "archive",
   },
@@ -29,6 +30,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t01.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Iconic rock & roll celebration from 1978.",
     source: "archive",
   },
@@ -44,6 +46,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t02.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Road-weary anthem for touring musicians.",
     source: "archive",
   },
@@ -59,6 +62,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t03.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Grammy-winning reflective rock ballad.",
     source: "archive",
   },
@@ -74,6 +78,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t05.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Motorcycle road trip epic from 1982.",
     source: "archive",
   },
@@ -89,6 +94,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t06.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Nostalgic portrait of small-town life.",
     source: "archive",
   },
@@ -104,6 +110,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t07.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "High-energy rock from Stranger in Town.",
     source: "archive",
   },
@@ -119,6 +126,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t08.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Tender ballad from Stranger in Town.",
     source: "archive",
   },
@@ -134,6 +142,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t09.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Portrait of a gambler's life.",
     source: "archive",
   },
@@ -149,6 +158,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t10.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Anthem of strength and endurance.",
     source: "archive",
   },
@@ -164,6 +174,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t11.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Escapism-fueled rocker from Beautiful Loser.",
     source: "archive",
   },
@@ -179,6 +190,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t12.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Title track from the 1975 breakthrough album.",
     source: "archive",
   },
@@ -194,6 +206,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t13.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Bob Seger's debut hit from 1968.",
     source: "archive",
   },
@@ -209,6 +222,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t14.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Celebration of rock & roll's staying power.",
     source: "archive",
   },
@@ -224,6 +238,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t15.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Haunting Rodney Crowell cover from The Distance.",
     source: "archive",
   },
@@ -239,6 +254,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t16.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Reflective rock from Against the Wind.",
     source: "archive",
   },
@@ -254,6 +270,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t17.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Strutting groove from Against the Wind.",
     source: "archive",
   },
@@ -269,6 +286,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t18.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Romantic rock from Against the Wind.",
     source: "archive",
   },
@@ -284,6 +302,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t19.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Live power from Nine Tonight.",
     source: "archive",
   },
@@ -299,6 +318,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t20.mp3",
     imageUrl: "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: "Anti-conformist anthem from Stranger in Town.",
     source: "archive",
   },
@@ -381,6 +401,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl: `https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t${String((i % 20) + 1).padStart(2, "0")}.mp3`,
     imageUrl:
       "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: `Classic Bob Seger track from the archive.`,
     source: "archive" as const,
   }))),
@@ -397,6 +418,7 @@ export const BOB_SEGER_TRACKS: Track[] = [
     streamUrl: `https://archive.org/download/bob-seger-ebbets-field-denver-co-1974-kbpi/seger_74-02-04.shn--t${String((i % 20) + 1).padStart(2, "0")}.mp3`,
     imageUrl:
       "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl: "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description: `Live recording from Ebbets Field, Denver, CO — February 4, 1974. KBPI Radio broadcast.`,
     source: "archive" as const,
   }))),
@@ -416,6 +438,7 @@ export const CLASSIC_ROCK_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/GratefulDead_1974_09_18_SoundBoard/gd74-09-18.sbd.hicks.t01.mp3",
     imageUrl: "https://archive.org/services/img/GratefulDead_1974_09_18_SoundBoard",
+    detailsUrl: "https://archive.org/details/GratefulDead_1974_09_18_SoundBoard",
     description: "Springsteen's breakout anthem from 1975.",
     source: "archive",
   },
@@ -431,6 +454,7 @@ export const CLASSIC_ROCK_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/GratefulDead_1974_09_18_SoundBoard/gd74-09-18.sbd.hicks.t02.mp3",
     imageUrl: "https://archive.org/services/img/GratefulDead_1974_09_18_SoundBoard",
+    detailsUrl: "https://archive.org/details/GratefulDead_1974_09_18_SoundBoard",
     description: "Iconic 1977 Eagles classic.",
     source: "archive",
   },
@@ -446,6 +470,7 @@ export const CLASSIC_ROCK_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/GratefulDead_1974_09_18_SoundBoard/gd74-09-18.sbd.hicks.t03.mp3",
     imageUrl: "https://archive.org/services/img/GratefulDead_1974_09_18_SoundBoard",
+    detailsUrl: "https://archive.org/details/GratefulDead_1974_09_18_SoundBoard",
     description: "Queen's operatic rock masterpiece.",
     source: "archive",
   },
@@ -461,6 +486,7 @@ export const CLASSIC_ROCK_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/GratefulDead_1974_09_18_SoundBoard/gd74-09-18.sbd.hicks.t04.mp3",
     imageUrl: "https://archive.org/services/img/GratefulDead_1974_09_18_SoundBoard",
+    detailsUrl: "https://archive.org/details/GratefulDead_1974_09_18_SoundBoard",
     description: "Led Zeppelin's definitive epic.",
     source: "archive",
   },
@@ -476,6 +502,7 @@ export const CLASSIC_ROCK_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/GratefulDead_1974_09_18_SoundBoard/gd74-09-18.sbd.hicks.t05.mp3",
     imageUrl: "https://archive.org/services/img/GratefulDead_1974_09_18_SoundBoard",
+    detailsUrl: "https://archive.org/details/GratefulDead_1974_09_18_SoundBoard",
     description: "Aerosmith's powerful debut ballad.",
     source: "archive",
   },
@@ -491,6 +518,7 @@ export const CLASSIC_ROCK_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/GratefulDead_1974_09_18_SoundBoard/gd74-09-18.sbd.hicks.t06.mp3",
     imageUrl: "https://archive.org/services/img/GratefulDead_1974_09_18_SoundBoard",
+    detailsUrl: "https://archive.org/details/GratefulDead_1974_09_18_SoundBoard",
     description: "Lynyrd Skynyrd's ultimate Southern rock anthem.",
     source: "archive",
   },
@@ -506,6 +534,7 @@ export const CLASSIC_ROCK_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/GratefulDead_1974_09_18_SoundBoard/gd74-09-18.sbd.hicks.t07.mp3",
     imageUrl: "https://archive.org/services/img/GratefulDead_1974_09_18_SoundBoard",
+    detailsUrl: "https://archive.org/details/GratefulDead_1974_09_18_SoundBoard",
     description: "Journey's enduring power ballad.",
     source: "archive",
   },
@@ -521,6 +550,7 @@ export const CLASSIC_ROCK_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/GratefulDead_1974_09_18_SoundBoard/gd74-09-18.sbd.hicks.t08.mp3",
     imageUrl: "https://archive.org/services/img/GratefulDead_1974_09_18_SoundBoard",
+    detailsUrl: "https://archive.org/details/GratefulDead_1974_09_18_SoundBoard",
     description: "Fleetwood Mac's electrifying Rumours opener.",
     source: "archive",
   },
@@ -536,6 +566,7 @@ export const CLASSIC_ROCK_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/GratefulDead_1974_09_18_SoundBoard/gd74-09-18.sbd.hicks.t09.mp3",
     imageUrl: "https://archive.org/services/img/GratefulDead_1974_09_18_SoundBoard",
+    detailsUrl: "https://archive.org/details/GratefulDead_1974_09_18_SoundBoard",
     description: "The Police's reggae-infused rock debut hit.",
     source: "archive",
   },
@@ -551,6 +582,7 @@ export const CLASSIC_ROCK_TRACKS: Track[] = [
     streamUrl:
       "https://archive.org/download/GratefulDead_1974_09_18_SoundBoard/gd74-09-18.sbd.hicks.t10.mp3",
     imageUrl: "https://archive.org/services/img/GratefulDead_1974_09_18_SoundBoard",
+    detailsUrl: "https://archive.org/details/GratefulDead_1974_09_18_SoundBoard",
     description: "Van Halen's synth-rock arena anthem.",
     source: "archive",
   },
@@ -661,6 +693,7 @@ export const CLASSIC_ROCK_TRACKS: Track[] = [
       streamUrl: `https://archive.org/download/GratefulDead_1974_09_18_SoundBoard/gd74-09-18.sbd.hicks.t${String((i % 20) + 1).padStart(2, "0")}.mp3`,
       imageUrl:
         "https://archive.org/services/img/GratefulDead_1974_09_18_SoundBoard",
+      detailsUrl: "https://archive.org/details/GratefulDead_1974_09_18_SoundBoard",
       description: `Classic ${song[3]} rock track from the archive.`,
       source: "archive" as const,
     };
@@ -682,6 +715,8 @@ export const BOB_SEGER_CONCERTS: Concert[] = [
       "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     imageUrl:
       "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl:
+      "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     description:
       "Rare KBPI radio broadcast from Ebbets Field in Denver, Colorado. This live recording captures Bob Seger and his band in raw, energetic form before mainstream success.",
     setlist: [
@@ -710,6 +745,8 @@ export const BOB_SEGER_CONCERTS: Concert[] = [
       "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     imageUrl:
       "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl:
+      "https://archive.org/details/bob-seger-capitol-theatre-1976",
     description:
       "Capitol Theatre performance supporting Night Moves album release.",
     setlist: [
@@ -735,6 +772,8 @@ export const BOB_SEGER_CONCERTS: Concert[] = [
       "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     imageUrl:
       "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl:
+      "https://archive.org/details/bob-seger-cobo-1977",
     description: "Hometown Detroit show during the Night Moves tour.",
     setlist: [
       "Night Moves",
@@ -759,6 +798,8 @@ export const BOB_SEGER_CONCERTS: Concert[] = [
       "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     imageUrl:
       "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl:
+      "https://archive.org/details/bob-seger-silverdome-1980",
     description: "Massive arena show from the Against the Wind tour.",
     setlist: [
       "Against the Wind",
@@ -783,6 +824,8 @@ export const BOB_SEGER_CONCERTS: Concert[] = [
       "https://archive.org/details/bob-seger-ebbets-field-denver-co-1974-kbpi",
     imageUrl:
       "https://archive.org/services/img/bob-seger-ebbets-field-denver-co-1974-kbpi",
+    detailsUrl:
+      "https://archive.org/details/bob-seger-spectrum-1983",
     description: "Philadelphia show from the Distance tour.",
     setlist: [
       "Roll Me Away",
